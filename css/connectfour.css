@@ -1,0 +1,33 @@
+#section3 {
+    background: #0099ff;
+    box-sizing: border-box;
+}
+
+#section3 .gridP {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 242px;
+    width: 282px;
+    background: white;
+    
+}
+
+#section3 .gridP div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+}
+#section3 .gridP div.taken {
+    border: none;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}

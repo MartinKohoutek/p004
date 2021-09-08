@@ -1,0 +1,27 @@
+.gridSnake {
+    width: 406px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.gridSnake div {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+
+#btnSnake {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: purple;
+}
